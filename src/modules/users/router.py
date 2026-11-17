@@ -46,9 +46,9 @@ async def get_user_items(
 
 @users_router.get("/pr34-one-love/")
 async def pr_34_one_love(
-    who_are_you: str
+    who_are_you: str
 ) -> str:
-    return f"ЙОУ! {who_are_you} из ПР34 ты крут!"
+    return f"ЙОУ! {who_are_you} из ПР34 ты крут!"
 
 @users_router.get("/all-users")
 async def get_all_users(
